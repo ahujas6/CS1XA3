@@ -15,7 +15,7 @@ if [ "$ans" -eq "1" ] ; then
 
 elif [ "$ans" -eq "2" ] ; then
 	touch ~/CS1XA3/Project01/todo.log
-	grep -r "#TODO" --exclude={todo.log,project_analyze.sh} ~/CS1XA3 >> ~/CS1XA3/Project01/todo.log 
+	grep -r "#TODO" --exclude={todo.log,project_analyze.sh,README.md} ~/CS1XA3 >> ~/CS1XA3/Project01/todo.log 
 elif [ "$ans" -eq "3" ] ; then
 	echo "press 1 to encrypt"
 	echo "press 2 to decrypt"
