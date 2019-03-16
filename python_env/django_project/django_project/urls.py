@@ -16,10 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse
-
-def hello_world(request):
-	html = "<html><body>Hi everyone</body></html>"
-	return HttpResponse(html)
 urlpatterns = [
-    path( 'e/ahujas6/', include('helloapp.urls')) ,
+    path('e/ahujas6/', include('labapp.urls')),
 ]
