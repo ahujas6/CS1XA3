@@ -16,7 +16,7 @@ import String
 
 
 rootUrl =
-    "http://localhost:8000/e/dizona/"
+    "http://localhost:8000/e/ahujas6/"
 
 
 
