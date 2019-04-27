@@ -42,7 +42,7 @@ python manage.py runserver localhost:10002
 
 turn on elm reactor on some local host using the command:
  elm reactor 
- and open reg.elm
+ and open reg.html
  
 Note:
 
